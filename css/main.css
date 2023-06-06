@@ -1,0 +1,49 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+a:hover {
+  text-decoration: none;
+  color: brown;
+}
+a {
+  text-decoration: none;
+}
+h1, h2, h3 {
+  color: #72b39e;
+}
+h1 {
+  margin: 10px 0 15px 0;
+}
+h2 {
+  margin: 10px 0 20px 0;
+}
+h3 {
+  margin: 15px 0 15px 0;
+  border-bottom: 1px solid #CCCCCC;
+  padding-bottom: 3px;
+  font-size: 18px;
+  font-weight: bold;
+}
+ul {
+  padding: 0 0 0 50px;
+}
+ul li {
+  margin: 0 0 5px 0;
+}
+ol {
+  padding: 0 0 0 50px;
+}
+.nav {
+  padding-left: 0;
+  margin: 5px 0 20px 0;
+  text-align: center;
+}
+.nav li {
+  display: inline;
+  padding-right: 10px;
+}
+.nav li:last-child {
+  padding-right: 0;
+}
