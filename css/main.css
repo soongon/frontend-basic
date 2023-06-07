@@ -47,3 +47,76 @@ ol {
 .nav li:last-child {
   padding-right: 0;
 }
+.photos {
+  list-style-type: none;
+  padding: 0;
+}
+.photos li {
+  display: inline;
+  padding-left: 11px;
+}
+.header {
+  padding: 10px;
+  background-color: #b56663;
+}
+.header a {
+  color: #ffffff;
+}
+.header h1 {
+  font-size: 50px;
+  color: burlywood;
+  text-align: center;
+}
+.main-content {
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  margin: 30px auto 0 auto;
+  background: #ffffff url(images/crossword.png) top left repeat;
+}
+.main-content p {
+  line-height: 25px;
+}
+footer {
+  margin-top: 20px;
+}
+footer p {
+  color: #aaaaaa;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+label, input {
+  display: block;
+}
+label {
+  margin-bottom: 10px;
+}
+input {
+  width: 500px;
+  margin-bottom: 25px;
+}
+input[type=submit] {
+  width: 120px;
+  font-size: 30px;
+}
+input[type=text] {
+  border: 2px solid #7facaa;
+  font-size: 24px;
+  padding: 7px;
+}
+textarea {
+  width: 500px;
+  height: 400px;
+  padding: 7px;
+  border: 2px solid #7facaa;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+input[type=checkbox], label[for=newsletter] {
+  width: 100px;
+  display: inline;
+}
